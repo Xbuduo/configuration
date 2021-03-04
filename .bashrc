@@ -115,3 +115,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# 翻墙设定
+alias px='proxychains'
+alias vv='~/Applications/v2ray_cli/v2ray_cli.py'
+
+# geohot's setting
+alias ls='ls --color'
+export PS1='\u@\h:\[\e[33m\]\w\[\e[0m\]\$ '
+export EDITOR='vim'
